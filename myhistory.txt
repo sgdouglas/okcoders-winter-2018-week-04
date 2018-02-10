@@ -1,0 +1,302 @@
+    1  ssh-add ~/.ssh/sshkey
+    2  ssh-keygen -t rsa -b 4096 -C "sgdouglas@gmail.com"
+    3  eval $(ssh-agent -s)
+    4  ssh-add ~/.ssh/sshkey2
+    5  which ssh
+    6  ssh-keygen
+    7  subl
+    8  subl ~/.ssh/id_rsa.pub
+    9  ssh-add ~/.ssh/id_rsa
+   10  clip < ~/.ssh/id_rsa.pub
+   11  ssh -T git@github.com
+   12  ssh -T git@github.com
+   13  ssh -T git@github.com
+   14  git config --global user.name "Sean Douglas"
+   15  git config --global user.email "sgdouglas@gmail.com"
+   16  git clone https://github.com/okcoders/2018-winter-html-css.git
+   17  cd 2018-winter-html-css
+   18  ls
+   19  mkdir Projects
+   20  cd ..
+   21  mkdir Projects
+   22  cd Projects
+   23  mkdir okcoders-winter-2018-week-1
+   24  cd okcoders-winter-2018-week-1/
+   25  com
+   26  pwd
+   27  touch helloworld.html
+   28  subl helloworld.html
+   29  touch propersite.html
+   30  cd..
+   31  cd  ..
+   32  cd
+   33  pwd
+   34  cd 2018-winter-html-css\Projects\okcoders-winter-2018-week-1
+   35  cd 2018-winter-html-css
+   36  cd projects
+   37  cd okcoders-winter2018-week-1
+   38  cd okcoders-winter-2018-week-1
+   39  touch propersite.html
+   40  tree
+   41  pwd
+   42  ls
+   43  ls
+   44  ls
+   45  git init .
+   46  git status
+   47  git add helloworld.html
+   48  git add propersite.html
+   49  git add images
+   50  git commit -m "Putting first stuff into our project."
+   51  git remote add origin https://github.com/sgdouglas/okcoders-winter-2018-week-01.git
+   52  git push -u origin master
+   53  touch readme.md
+   54  git status
+   55  git add readme.md
+   56  git commit -m "Added readme file"
+   57  git push
+   58  git status
+   59  git commit
+   60  cd ..
+   61  cd okcoders-winter-2018-week-1-hw
+   62  git init .
+   63  git remote add origin
+   64  git push -u origin master
+   65  git add index.html
+   66  git add subpage1.html
+   67  git add subpage2.html
+   68  git add subpage3.html
+   69  git add subpage4.html
+   70  git add images
+   71  git commit -m "Uploading files for website"
+   72  git remote add origin "https://github.com/sdouglas/okcoders-winter-2018-week-1-hw.git"
+   73  git push -u origin master
+   74  touch readme.md
+   75  git add readme.md
+   76  git commit -m "Remarks for this website"
+   77  git push
+   78  pwd
+   79  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   80  git push -u origin master
+   81  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   82  git remote remove origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   83  git remote remove "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   84  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   85  git remote -v
+   86  git remote remove origin
+   87  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   88  git push -u origin master
+   89  git remote
+   90  git remote -v
+   91  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   92  git push -u origin master
+   93  git remote remove origin
+   94  git push -u origin master
+   95  git remote v
+   96  git remote remove origin
+   97  git remote remove "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+   98  cd ..
+   99  cd okcoders-winter-2018-week-01-hw-COR
+  100  git init
+  101  git add images.html
+  102  git add index.html
+  103  git add subpage1.html
+  104  git add subpage2.html
+  105  git add subpage3.html
+  106  git add subpage4.html
+  107  git add images
+  108  git commit -m "Week 1 homework website"
+  109  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw-COR.git
+  110  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw-COR.git"
+  111  git push -u origin master
+  112  touch readme.md
+  113  git commit -m "Remarks"
+  114  git push
+  115  git status
+  116  ls
+  117   cd ../Projects
+  118  cd //
+  119  ls
+  120  cd d2
+  121  ls
+  122  cd ~
+  123  ls
+  124  cd 2018-winter-html-css
+  125  ls
+  126  cd Projects
+  127  ls
+  128  ls -l
+  129  remote remove origin
+  130  git remote remove origin
+  131  ls 
+  132  cd okcoders-winter-2018-week-01-hw
+  133  git init .
+  134  git add index.html
+  135  git add subpage1.html
+  136  git add subpage2.html
+  137  git add subpage3.html
+  138  git add subpage4.html
+  139  git add images
+  140  git commit add -m "OKCoders Week 1 homework website"
+  141  git commit -m "OKCoders Week 1 homework website"
+  142  git remote add origin "https://github.com/sgdouglas/okcoders-winter-2018-week-01-hw.git"
+  143  git push -u origin master
+  144  touch readme.md
+  145  git add readme.md
+  146  git commit -m "OKCoders Week 1 homework website"
+  147  git push
+  148  git status
+  149  cd ..
+  150  mkdir okcoders-winter-2018-week-02
+  151  cd okcoders-winter-2018-week-02
+  152  ls
+  153  ls
+  154  touch index.html
+  155  echo "# okcoders-winter-2018-week-02" >> README.md
+  156  git init
+  157  git add README.md
+  158  git commit -m "first commit"
+  159  git remote add origin git@github.com:sgdouglas/okcoders-winter-2018-week-02.git
+  160  git push -u origin master
+  161  git push -u origin master
+  162  git push -u origin master
+  163  git status
+  164  ls
+  165  git status
+  166  git add index.html
+  167  git status
+  168  git commit -m "Added index.html"
+  169  git push
+  170  touch style.css
+  171  git add -A
+  172  git commit -m "More and more css... boxes and selectors."
+  173  git push
+  174  git add -A
+  175  git commit -m "More and more random css stuff... also misspellings"
+  176  git push
+  177  cd..
+  178  cd ..
+  179  ls
+  180  cd okcoders-winter-2018-week-02B
+  181  echo "# okcoders-winter-2018-week-02B" >> README.md
+  182  git init
+  183  git add README.md
+  184  git commit -m "first commit"
+  185  git remote add origin git@github.com:sgdouglas/okcoders-winter-2018-week-02B.git
+  186  git push -u origin master
+  187  touch index.html
+  188  touch style.css
+  189  body {
+  190  git add -A
+  191  git commit -m "More css..."
+  192  git push
+  193  git add -A
+  194  git commit -m "Awesome css website"
+  195  git push
+  196  git add -A
+  197  git commit -m "Headers in css..."
+  198  git push
+  199  git add A
+  200  git add -A
+  201  git commit -m "And the CSS just keeps going..."
+  202  git push
+  203  mkdir okcoders-winter-2018-week-03
+  204  pwd
+  205  cd..
+  206  cd ..
+  207  ls
+  208  cd 
+  209  cd okcoders-winter-2018-week-03
+  210  cd okcoders-winter-2018-week-03
+  211  pwd
+  212  cd projects
+  213  cd 2018-winter-html-css\projects
+  214  cd 2018-winter-html-css
+  215  cd projects
+  216  cd okcoders-winter-2018-week-03
+  217  echo "# okcoders-winter-2018-week-03" >> README.md
+  218  git init
+  219  git add README.md
+  220  git commit -m "first commit"
+  221  git remote add origin git@github.com:sgdouglas/okcoders-winter-2018-week-03.git
+  222  git push -u origin master
+  223  cd styles.css
+  224  touch style.css
+  225  cd ..
+  226  touch index.html
+  227  git commit -m "And here we go!"
+  228  git add -A
+  229  git commit -m "And here we go!"
+  230  git push
+  231  git add -A
+  232  git commit -m "Still working hard..."
+  233  git push
+  234  git status
+  235  git add -A
+  236  git status
+  237  git commit -m "Still working (added a basic gallery)"
+  238  git push
+  239  cd ..
+  240  cd flexbox-layouts
+  241  cd okcoders-winter-2018-week-03
+  242  cd flexbox-layouts
+  243  touch index.html
+  244  cd styles
+  245  touch style.css
+  246  cs ..
+  247  cd ..
+  248  cd ..
+  249  git add -A
+  250  git commit -m "new folder coming in"
+  251  git push
+  252  git add -A
+  253  git commit -m "more flexbox stuff"
+  254  git push
+  255  ls
+  256  mkdir bootstrap
+  257  cd bootstrap
+  258  touch index.html
+  259  mkdir images
+  260  mkdir styles
+  261  mkdir pages
+  262  ls
+  263  cd styles
+  264  touch style.css
+  265  cd ..
+  266  ls
+  267  git add -A
+  268  git comment -m "Bootstrap intro"
+  269  git commit -m "Bootstrap intro"
+  270  git push
+  271  ls
+  272  pwd
+  273  ls
+  274  ls -al
+  275  ls als
+  276  ls -als
+  277  ls
+  278  cd 2018-winter-html-css
+  279  ls -al
+  280  cd Projects
+  281  ls
+  282  mkdir okcoders-winter-2018-week-04
+  283  cd okcoders-winter-2018-week-04
+  284  ls
+  285  echo something
+  286  echo "hello world" > msg.txt
+  287  ls
+  288  subl msg.txt
+  289  cd ..
+  290  ls
+  291  cd ^C
+  292  cd ^C
+  293  cd okcoders-winter-2018-week-03
+  294  git add -A
+  295  git commit -m "changed a couple colors"
+  296  git push
+  297  cd ..
+  298  ls
+  299  cd okcoders-winter-2018-week-04
+  300  ls
+  301  history
+  302  history > myhistory.txt
